@@ -19,7 +19,7 @@ function findTitle(n1,n2){
     else if(n1==n2) {return "Draw !";}
 }
 
-document.getElementsByTagName("h1")[0]innerHTML = findTitle(randomNumber1,randomNumber2);
+document.getElementsByTagName("h1")[0].innerHTML = findTitle(randomNumber1,randomNumber2);
 
     
 
